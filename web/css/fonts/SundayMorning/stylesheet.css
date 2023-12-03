@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Sunday Morning';
+    src: url('SundayMorning.eot');
+    src: url('SundayMorning.eot?#iefix') format('embedded-opentype'),
+        url('SundayMorning.woff2') format('woff2'),
+        url('SundayMorning.woff') format('woff'),
+        url('SundayMorning.ttf') format('truetype'),
+        url('SundayMorning.svg#SundayMorning') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

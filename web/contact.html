@@ -16,7 +16,7 @@
     <body class="d-flex flex-column">
         <main class="flex-shrink-0">
             <!-- Navigation-->
-            <nav class="navbar navbar-expand-lg" style="background-color: #ffed96;">
+            <nav class="navbar navbar-expand-lg sticky-top py-0" style="background-color: #ffed96;">
                 <div class="container px-5">
                     <a class="navbar-brand" href="index.html"><img src="assets/main_logo.png" class="home-logo"/></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -25,7 +25,7 @@
                             <li class="nav-item"><a class="nav-link text-green navbar-font-chantal navbar-hover" href="index.html">Home</a></li>
                             <li class="nav-item"><a class="nav-link text-green navbar-font-chantal navbar-hover" href="about.html">About</a></li>
                             <li class="nav-item"><a class="nav-link text-green navbar-font-chantal navbar-hover" href="menu.html">Menu</a></li>
-                            <li class="nav-item"><a class="nav-link text-green navbar-font-chantal navbar-hover" href="shop.html">Shop</a></li>
+                            <li class="nav-item"><a class="nav-link text-green navbar-font-chantal navbar-hover" href="merch.html">Merch</a></li>
                             <li class="nav-item"><a class="nav-link text-green navbar-font-chantal navbar-hover" href="contact.html">Contact</a></li>
                         </ul>
                     </div>
@@ -120,22 +120,26 @@
                                       </div>
                                     </div>
                                   </div>
-                                <div class="form-floating mb-3">
+                                <div class="form-floating mb-1">
                                     <input class="form-control" id="res_email" type="email" placeholder="name@example.com"required />
                                     <label for="res_email" class="font-chantal">Email address</label>
                                 </div>
-                                <div class="d-grid gap-3 d-sm-flex justify-content-center justify-content-xl-start">
-                                    <a class="btn btn-primary btn-lg px-4 me-sm-3 navbar-font-chantal" href="index.html">Reserve</a>
+                                <div class="form-floating py-0 ">
+                                    <input class="form-control" id="res_date" type="date" placeholder="YYYY-DD-MM"required />
+                                    <label for="res_date" class="font-chantal">Date</label>
+                                </div>
+                                <div class="d-grid gap-3 d-sm-flex justify-content-center justify-content-xl-start py-2">
+                                    <a class="btn btn-primary btn-lg px-4 me-sm-3 navbar-font-chantal" onclick="reserveTable();">Reserve</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"><img class="img-fluid rounded-3 my-5" src="https://s.hdnux.com/photos/01/22/35/43/21616848/4/1200x0.jpg" alt="..." /></div>
                     </div>
                 </div>
-            </section>              
+            </section>           
         </main>
-        <!-- Footer-->
-        <footer class="bg-yellow py-2 mt-auto">
+         <!-- Footer-->
+         <footer class="bg-yellow py-1 mt-auto">
             <div class="container px-0">
                 <div class="row align-items-center justify-content-between flex-column flex-sm-row">
                     <div class="small px-5 py-0"><img src="assets/main_logo.png" class="footer-logo"/></div>

@@ -10928,13 +10928,32 @@ html {
   font-family : Frutiger CN;
 }
 
+@font-face {
+  font-family: 'Sunday Morning';
+  src: url('fonts/SundayMorning/SundayMorning.eot');
+  src: url('fonts/SundayMorning/SundayMorning.eot?#iefix') format('embedded-opentype'),
+      url('fonts/SundayMorning/SundayMorning.woff2') format('woff2'),
+      url('fonts/SundayMorning/SundayMorning.woff') format('woff'),
+      url('fonts/SundayMorning/SundayMorning.ttf') format('truetype'),
+      url('fonts/SundayMorning/SundayMorning.svg#SundayMorning') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.font-sundaymorning {
+  font-family: Sunday Morning;
+}
+
+
+
 .home-logo {
   width: 10rem;
   height: auto;
 }
 
 .footer-logo {
-  max-width: 10%;
+  max-width: 5rem;
   height: auto;
 }
 
