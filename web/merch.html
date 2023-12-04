@@ -38,51 +38,399 @@
            <!-- Page Content-->
             <div class="container py-3">
               <div class="row">
+                <!-- Utensil Set-->
                 <div class="col">
-                  <figure class="figure">
-                    <img src="https://s.hdnux.com/photos/01/22/35/43/21616848/4/1200x0.jpg" class="figure-img img-fluid rounded" alt="...">
-                    <figcaption class="figure-caption text-center font-head-frutiger text-green">Header.</figcaption>
-                    <figcaption class="figure-subcaption text-center font-subhead-frutiger text-green">A caption for the above image.</figcaption>                  
-                  </figure>
+                  <div class="thumbnail">
+                    <a href="#utensilSetModal"data-bs-toggle="modal" data-bs-target="#utensilSetModal" style="text-decoration: none;">
+                      <img src="https://s.hdnux.com/photos/01/22/35/43/21616848/4/1200x0.jpg" class="figure-img img-fluid rounded" alt="..."/>
+                      <div class="caption text-center font-head-frutiger text-green">
+                        <h5>Utensil Sets</h5>
+                      </div>
+                    </a>
+                  </div>
                 </div>
-                <div class="col">
-                  <figure class="figure">
-                    <img src="https://s.hdnux.com/photos/01/22/35/43/21616848/4/1200x0.jpg" class="figure-img img-fluid rounded" alt="...">
-                    <figcaption class="figure-caption text-center font-head-frutiger text-green">Header</figcaption>
-                    <figcaption class="figure-subcaption text-center font-subhead-frutiger text-green">A caption for the above image.</figcaption>                  
-                  </figure>
+                <!-- Utensil Set Gallery -->
+                <div class="modal fade" id="utensilSetModal" tabindex="-1" aria-labelledby="utensilSetLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title font-head-frutiger" id="utensilSetLabel">Utensil Sets</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div id="utensilCaptions" class="carousel slide" data-bs-ride="carousel">
+                          <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#utensilCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#utensilCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#utensilCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                          </div>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img src="https://i.imgur.com/zmzERpe.jpg" class="d-block w-100" alt="...">
+                              <div class="carousel-caption d-none d-md-block text-green">
+                                <h5>First slide label</h5>
+                                <p>Some representative placeholder content for the first slide.</p>
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                              <img src="https://i.imgur.com/gX11Vt5.jpg" class="d-block w-100" alt="...">
+                              <div class="carousel-caption d-none d-md-block text-green">
+                                <h5>Second slide label</h5>
+                                <p>Some representative placeholder content for the second slide.</p>
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                              <img src="https://i.imgur.com/pZcUS2Y.jpg" class="d-block w-100" alt="...">
+                              <div class="carousel-caption d-none d-md-block text-green">
+                                <h5>Third slide label</h5>
+                                <p>Some representative placeholder content for the third slide.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#utensilCaptions" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#utensilCaptions" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
                 </div>
+                <!-- Tote Bags -->
                 <div class="col">
-                  <figure class="figure">
-                    <img src="https://s.hdnux.com/photos/01/22/35/43/21616848/4/1200x0.jpg" class="figure-img img-fluid rounded" alt="...">
-                    <figcaption class="figure-caption text-center font-head-frutiger text-green">Header</figcaption>
-                    <figcaption class="figure-subcaption text-center font-subhead-frutiger text-green">A caption for the above image.</figcaption>                  
-                  </figure>
+                  <div class="thumbnail">
+                    <a href="#toteBagModal"data-bs-toggle="modal" data-bs-target="#toteBagModal" style="text-decoration: none;">
+                      <img src="https://s.hdnux.com/photos/01/22/35/43/21616848/4/1200x0.jpg" class="figure-img img-fluid rounded" alt="..."/>
+                      <div class="caption text-center font-head-frutiger text-green">
+                        <h5>Tote Bags</h5>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <!-- Tote Bag Gallery -->
+                <div class="modal fade" id="toteBagModal" tabindex="-1" aria-labelledby="toteBagLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title font-head-frutiger" id="toteBagLabel">Tote Bags</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div id="toteBagCaptions" class="carousel slide" data-bs-ride="carousel">
+                          <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#toteBagCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#toteBagCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#toteBagCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                          </div>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img src="https://i.imgur.com/zmzERpe.jpg" class="d-block w-100" alt="...">
+                              <div class="carousel-caption d-none d-md-block text-green">
+                                <h5>First slide label</h5>
+                                <p>Some representative placeholder content for the first slide.</p>
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                              <img src="https://i.imgur.com/gX11Vt5.jpg" class="d-block w-100" alt="...">
+                              <div class="carousel-caption d-none d-md-block text-green">
+                                <h5>Second slide label</h5>
+                                <p>Some representative placeholder content for the second slide.</p>
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                              <img src="https://i.imgur.com/pZcUS2Y.jpg" class="d-block w-100" alt="...">
+                              <div class="carousel-caption d-none d-md-block text-green">
+                                <h5>Third slide label</h5>
+                                <p>Some representative placeholder content for the third slide.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#toteBagCaptions" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#toteBagCaptions" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Apron-->
+                <div class="col">
+                  <div class="thumbnail">
+                    <a href="#apronModal"data-bs-toggle="modal" data-bs-target="#apronModal" style="text-decoration: none;">
+                      <img src="https://s.hdnux.com/photos/01/22/35/43/21616848/4/1200x0.jpg" class="figure-img img-fluid rounded" alt="..."/>
+                      <div class="caption text-center font-head-frutiger text-green">
+                        <h5>Aprons</h5>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <!-- Apron Gallery -->
+                <div class="modal fade" id="apronModal" tabindex="-1" aria-labelledby="apronModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title font-head-frutiger" id="apronModalLabel">Aprons</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div id="apronCaptions" class="carousel slide" data-bs-ride="carousel">
+                          <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#apronCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#apronCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#apronCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                          </div>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img src="https://i.imgur.com/zmzERpe.jpg" class="d-block w-100" alt="...">
+                              <div class="carousel-caption d-none d-md-block text-green">
+                                <h5>First slide label</h5>
+                                <p>Some representative placeholder content for the first slide.</p>
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                              <img src="https://i.imgur.com/gX11Vt5.jpg" class="d-block w-100" alt="...">
+                              <div class="carousel-caption d-none d-md-block text-green">
+                                <h5>Second slide label</h5>
+                                <p>Some representative placeholder content for the second slide.</p>
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                              <img src="https://i.imgur.com/pZcUS2Y.jpg" class="d-block w-100" alt="...">
+                              <div class="carousel-caption d-none d-md-block text-green">
+                                <h5>Third slide label</h5>
+                                <p>Some representative placeholder content for the third slide.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#apronCaptions" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
             <div class="container py-3">
               <div class="row">
+                <!-- Sticker -->
                 <div class="col">
-                  <figure class="figure">
-                    <img src="https://s.hdnux.com/photos/01/22/35/43/21616848/4/1200x0.jpg" class="figure-img img-fluid rounded" alt="...">
-                    <figcaption class="figure-caption text-center font-head-frutiger text-green">Header.</figcaption>
-                    <figcaption class="figure-subcaption text-center font-subhead-frutiger text-green">A caption for the above image.</figcaption>                  
-                  </figure>
+                  <div class="thumbnail">
+                    <a href="#stickerModal"data-bs-toggle="modal" data-bs-target="#stickerModal" style="text-decoration: none;">
+                      <img src="https://s.hdnux.com/photos/01/22/35/43/21616848/4/1200x0.jpg" class="figure-img img-fluid rounded" alt="..."/>
+                      <div class="caption text-center font-head-frutiger text-green">
+                        <h5>Stickers</h5>
+                      </div>
+                    </a>
+                  </div>
                 </div>
-                <div class="col">
-                  <figure class="figure">
-                    <img src="https://s.hdnux.com/photos/01/22/35/43/21616848/4/1200x0.jpg" class="figure-img img-fluid rounded" alt="...">
-                    <figcaption class="figure-caption text-center font-head-frutiger text-green">Header</figcaption>
-                    <figcaption class="figure-subcaption text-center font-subhead-frutiger text-green">A caption for the above image.</figcaption>                  
-                  </figure>
+                <!-- Stickers Gallery -->
+                <div class="modal fade" id="stickerModal" tabindex="-1" aria-labelledby="stickerLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title font-head-frutiger" id="stickerLabel">Stickers</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div id="stickerCaptions" class="carousel slide" data-bs-ride="carousel">
+                          <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#stickerCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#stickerCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#stickerCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                          </div>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img src="https://i.imgur.com/zmzERpe.jpg" class="d-block w-100" alt="...">
+                              <div class="carousel-caption d-none d-md-block text-green">
+                                <h5>First slide label</h5>
+                                <p>Some representative placeholder content for the first slide.</p>
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                              <img src="https://i.imgur.com/gX11Vt5.jpg" class="d-block w-100" alt="...">
+                              <div class="carousel-caption d-none d-md-block text-green">
+                                <h5>Second slide label</h5>
+                                <p>Some representative placeholder content for the second slide.</p>
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                              <img src="https://i.imgur.com/pZcUS2Y.jpg" class="d-block w-100" alt="...">
+                              <div class="carousel-caption d-none d-md-block text-green">
+                                <h5>Third slide label</h5>
+                                <p>Some representative placeholder content for the third slide.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#stickerCaptions" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#stickerCaptions" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
                 </div>
+                <!-- Pins -->
                 <div class="col">
-                  <figure class="figure">
-                    <img src="https://s.hdnux.com/photos/01/22/35/43/21616848/4/1200x0.jpg" class="figure-img img-fluid rounded" alt="...">
-                    <figcaption class="figure-caption text-center font-head-frutiger text-green">Header</figcaption>
-                    <figcaption class="figure-subcaption text-center font-subhead-frutiger text-green">A caption for the above image.</figcaption>                  
-                  </figure>
+                  <div class="thumbnail">
+                    <a href="#pinModal"data-bs-toggle="modal" data-bs-target="#pinModal" style="text-decoration: none;">
+                      <img src="https://s.hdnux.com/photos/01/22/35/43/21616848/4/1200x0.jpg" class="figure-img img-fluid rounded" alt="..."/>
+                      <div class="caption text-center font-head-frutiger text-green">
+                        <h5>Pins</h5>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <!-- Pins Gallery -->
+                <div class="modal fade" id="pinModal" tabindex="-1" aria-labelledby="pinLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title font-head-frutiger" id="toteBagLabel">Pins</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div id="pinCaptions" class="carousel slide" data-bs-ride="carousel">
+                          <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#pinCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#pinCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#pinCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                          </div>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img src="https://i.imgur.com/zmzERpe.jpg" class="d-block w-100" alt="...">
+                              <div class="carousel-caption d-none d-md-block text-green">
+                                <h5>First slide label</h5>
+                                <p>Some representative placeholder content for the first slide.</p>
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                              <img src="https://i.imgur.com/gX11Vt5.jpg" class="d-block w-100" alt="...">
+                              <div class="carousel-caption d-none d-md-block text-green">
+                                <h5>Second slide label</h5>
+                                <p>Some representative placeholder content for the second slide.</p>
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                              <img src="https://i.imgur.com/pZcUS2Y.jpg" class="d-block w-100" alt="...">
+                              <div class="carousel-caption d-none d-md-block text-green">
+                                <h5>Third slide label</h5>
+                                <p>Some representative placeholder content for the third slide.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#pinCaptions" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#pinCaptions" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Face Mask -->
+                <div class="col">
+                  <div class="thumbnail">
+                    <a href="#faceMaskModal"data-bs-toggle="modal" data-bs-target="#faceMaskModal" style="text-decoration: none;">
+                      <img src="https://s.hdnux.com/photos/01/22/35/43/21616848/4/1200x0.jpg" class="figure-img img-fluid rounded" alt="..."/>
+                      <div class="caption text-center font-head-frutiger text-green">
+                        <h5>Face Mask</h5>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <!-- Face Mask Gallery -->
+                <div class="modal fade" id="faceMaskModal" tabindex="-1" aria-labelledby="faceMaskLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title font-head-frutiger" id="faceMaskLabel">Face Mask</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div id="faceMaskCaptions" class="carousel slide" data-bs-ride="carousel">
+                          <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#faceMaskCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#faceMaskCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#faceMaskCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                          </div>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img src="https://i.imgur.com/zmzERpe.jpg" class="d-block w-100" alt="...">
+                              <div class="carousel-caption d-none d-md-block text-green">
+                                <h5>First slide label</h5>
+                                <p>Some representative placeholder content for the first slide.</p>
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                              <img src="https://i.imgur.com/gX11Vt5.jpg" class="d-block w-100" alt="...">
+                              <div class="carousel-caption d-none d-md-block text-green">
+                                <h5>Second slide label</h5>
+                                <p>Some representative placeholder content for the second slide.</p>
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                              <img src="https://i.imgur.com/pZcUS2Y.jpg" class="d-block w-100" alt="...">
+                              <div class="carousel-caption d-none d-md-block text-green">
+                                <h5>Third slide label</h5>
+                                <p>Some representative placeholder content for the third slide.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#faceMaskCaptions" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#faceMaskCaptions" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -135,6 +483,8 @@
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Lightbox -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
     </body>
