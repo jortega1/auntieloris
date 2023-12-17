@@ -16,7 +16,7 @@
     <body class="d-flex flex-column">
         <main class="flex-shrink-0">
             <!-- Navigation-->
-            <nav class="navbar navbar-expand-lg" style="background-color: #ffed96;">
+            <nav class="navbar navbar-expand-lg sticky-top py-0" style="background-color: #ffed96;">
                 <div class="container px-5">
                     <a class="navbar-brand" href="index.html"><img src="assets/main_logo.png" class="home-logo"/></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -25,7 +25,7 @@
                             <li class="nav-item"><a class="nav-link text-green navbar-font-chantal navbar-hover" href="index.html">Home</a></li>
                             <li class="nav-item"><a class="nav-link text-green navbar-font-chantal navbar-hover" href="about.html">About</a></li>
                             <li class="nav-item"><a class="nav-link text-green navbar-font-chantal navbar-hover" href="menu.html">Menu</a></li>
-                            <li class="nav-item"><a class="nav-link text-green navbar-font-chantal navbar-hover" href="shop.html">Shop</a></li>
+                            <li class="nav-item"><a class="nav-link text-green navbar-font-chantal navbar-hover" href="merch.html">Merch</a></li>
                             <li class="nav-item"><a class="nav-link text-green navbar-font-chantal navbar-hover" href="contact.html">Contact</a></li>
                         </ul>
                     </div>
@@ -36,32 +36,29 @@
                 <h1>About</h1>
             </div>
             <!-- Header-->
-            <header class="py-3">
-                <div class="container px-5">
+            <header class="py-1 text-center">
+                <div class="container px-1">
                     <div class="row justify-content-center">
-                        <div class="col-lg-8"><img width="1200" height="480" class="img-fluid" src="https://soylent.com/cdn/shop/articles/Glycemic-Index-hero.jpg?v=1580345087" alt="..." /></div>
-                        <div class="col-lg-8 col-xxl-6">
-                        </div>
+                        <div class="col-lg-8"><img class="img-fluid" src="assets/sari_sari.jpg" alt="..." /></div>
                     </div>
                 </div>
             </header>
             <!-- About -->
             <section class="py-5 bg-light" id="scroll-target">
-                <div class="container px-5 my-5">
-                    <div class="row gx-5 align-items-center">
-                        <div class="col-lg-6">
-                            <h1 class="fw-bolder font-head-frutiger text-green">Auntie Lori's</h1>
-                            <p class="lead mb-0 font-subhead-frutiger text-green">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto est, ut esse a labore aliquam beatae expedita. Blanditiis impedit numquam libero molestiae et fugit cupiditate, quibusdam expedita, maiores eaque quisquam.
-                                psum dolor sit amet consectetur adipisicing elit. Iusto est, ut esse a labore aliquam beatae expedita. Blanditiis impedit numquam libero molestiae et fugit cupiditate, quibusdam expedita, maiores eaque quisquam.
-                            </p>
-                        </div>
-                        <div class="text-left my-3">
-                            <a class="btn btn-primary btn-lg navbar-font-chantal" href="menu.html">Menu</a>
-                        </div>
+                <div class="container px-2 my-1 text-center">
+                    <h1 class="fw-bolder font-head-frutiger text-green">Auntie Lori's</h1>
+                    <p class="text-center lead mb-0 font-subhead-frutiger text-green">Auntie Lori is a Filipino-Canadian Restaurant, both located in the Philippines and Canada. 
+                                                                            Auntie Lori’s is a Filipino-Canadian fusion, home cooked meals. The location of this restaurant is that, 
+                                                                            the first floor is where you can buy traditional Filipino snacks on the go but there is an upstairs where you can fully sit down and eat a warm and homey meal 
+                                                                            freshly cooked for you. As you can see from the image to the left, in Tagalog, it is known as a tindahan (teen-daa-han, store known to have a floor upstairs for
+                                                                            people to live in such as the people who own the store). The image is not exactly how I want my restaurant to look like but its the closet thing to what it could be. 
+                    </p>
+                    <div class="text-center my-2">
+                        <a class="btn btn-primary btn-lg navbar-font-chantal" href="menu.html">Menu</a>
                     </div>
                 </div>
             </section>
-             <!--Reservation-->
+            <!--Reservation-->
             <section class="py-1">
                 <div class="container px-5 my-1">
                     <div class="row gx-5 justify-content-center">
@@ -82,25 +79,29 @@
                                       </div>
                                     </div>
                                   </div>
-                                <div class="form-floating mb-3">
+                                <div class="form-floating mb-1">
                                     <input class="form-control" id="res_email" type="email" placeholder="name@example.com"required />
                                     <label for="res_email" class="font-chantal">Email address</label>
                                 </div>
-                                <div class="d-grid gap-3 d-sm-flex justify-content-center justify-content-xl-start">
-                                    <a class="btn btn-primary btn-lg px-4 me-sm-3 navbar-font-chantal" href="index.html">Reserve</a>
+                                <div class="form-floating py-0 ">
+                                    <input class="form-control" id="res_date" type="date" placeholder="YYYY-DD-MM"required />
+                                    <label for="res_date" class="font-chantal">Date</label>
+                                </div>
+                                <div class="d-grid gap-3 d-sm-flex justify-content-center justify-content-xl-start py-2">
+                                    <a class="btn btn-primary btn-lg px-4 me-sm-3 navbar-font-chantal" onclick="reserveTable();">Reserve</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"><img class="img-fluid rounded-3 my-5" src="https://s.hdnux.com/photos/01/22/35/43/21616848/4/1200x0.jpg" alt="..." /></div>
                     </div>
                 </div>
-            </section>            
+            </section>  
         </main>
         <!-- Footer-->
-        <footer class="bg-yellow py-2 mt-auto">
+        <footer class="bg-yellow py-1 mt-auto">
             <div class="container px-0">
                 <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                    <div class="col-auto "><div class="small m-0"><img src="assets/main_logo.png" class="footer-logo"/></div></div>
+                    <div class="small px-5 py-0"><img src="assets/main_logo.png" class="footer-logo"/></div>
                 </div>
             </div>
         </footer>

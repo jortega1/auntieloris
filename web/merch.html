@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Auntie Lori's</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/web_logo.png" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+             <!-- Navigation-->
+             <nav class="navbar navbar-expand-lg sticky-top py-0" style="background-color: #ffed96;">
+              <div class="container px-5">
+                  <a class="navbar-brand" href="index.html"><img src="assets/main_logo.png" class="home-logo"/></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                          <li class="nav-item"><a class="nav-link text-green navbar-font-chantal navbar-hover" href="index.html">Home</a></li>
+                          <li class="nav-item"><a class="nav-link text-green navbar-font-chantal navbar-hover" href="about.html">About</a></li>
+                          <li class="nav-item"><a class="nav-link text-green navbar-font-chantal navbar-hover" href="menu.html">Menu</a></li>
+                          <li class="nav-item"><a class="nav-link text-green navbar-font-chantal navbar-hover" href="merch.html">Merch</a></li>
+                          <li class="nav-item"><a class="nav-link text-green navbar-font-chantal navbar-hover" href="contact.html">Contact</a></li>
+                      </ul>
+                  </div>
+              </div>
+          </nav>
+            <!--Active Page-->
+            <div class="py-auto text-center navbar-font-chantal text-yellow bg-green" style="font-size: 2.8vw;">
+                <h1>Merch</h1>
+            </div>
+           <!-- Page Content-->
+            <div class="container py-3">
+              <div class="row">
+                <!-- Utensil Set-->
+                <div class="col">
+                  <div class="thumbnail">
+                    <a href="#utensilSetModal"data-bs-toggle="modal" data-bs-target="#utensilSetModal" style="text-decoration: none;">
+                      <img src="img/merch/utensil/utensil_1.jpg" class="figure-img img-fluid rounded" alt="..."/>
+                      <div class="caption text-center font-head-frutiger text-green">
+                        <h5>Utensil Sets</h5>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <!-- Utensil Set Gallery -->
+                <div class="modal modal-lg fade" id="utensilSetModal" tabindex="-1" aria-labelledby="utensilSetLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title font-head-frutiger" id="utensilSetLabel">Utensil Sets</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div id="utensilCaptions" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                          <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#utensilCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#utensilCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#utensilCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                          </div>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img src="img/merch/utensil/utensil_1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="img/merch/utensil/utensil_2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="img/merch/utensil/utensil_3.jpg" class="d-block w-100" alt="...">
+                            </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#utensilCaptions" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#utensilCaptions" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>
+                      </div>
+                      <!-- <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div> -->
+                    </div>
+                  </div>
+                </div>
+                <!-- Tote Bags -->
+                <div class="col">
+                  <div class="thumbnail">
+                    <a href="#toteBagModal"data-bs-toggle="modal" data-bs-target="#toteBagModal" style="text-decoration: none;">
+                      <img src="img/merch/totebag/tote_main.jpg" class="figure-img img-fluid rounded" alt="..."/>
+                      <div class="caption text-center font-head-frutiger text-green">
+                        <h5>Tote Bags</h5>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <!-- Tote Bag Gallery -->
+                <div class="modal modal-lg fade" id="toteBagModal" tabindex="-1" aria-labelledby="toteBagLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title font-head-frutiger" id="toteBagLabel">Tote Bags</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div id="toteBagCaptions" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                          <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#toteBagCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#toteBagCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          </div>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img src="img/merch/totebag/tote_1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="img/merch/totebag/tote_2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#toteBagCaptions" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#toteBagCaptions" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>
+                      </div>
+                      <!-- <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div> -->
+                    </div>
+                  </div>
+                </div>
+                <!-- Apron-->
+                <div class="col">
+                  <div class="thumbnail">
+                    <a href="#apronModal"data-bs-toggle="modal" data-bs-target="#apronModal" style="text-decoration: none;">
+                      <img src="img/merch/apron/apron_main.jpg" class="figure-img img-fluid rounded" alt="..."/>
+                      <div class="caption text-center font-head-frutiger text-green">
+                        <h5>Aprons</h5>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <!-- Apron Gallery -->
+                <div class="modal modal-lg fade" id="apronModal" tabindex="-1" aria-labelledby="apronModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title font-head-frutiger" id="apronModalLabel">Aprons</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div id="apronCaptions" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                          <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#apronCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#apronCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          </div>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img src="img/merch/apron/apron_1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="img/merch/apron/apron_2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#apronCaptions" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#apronCaptions" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>
+                      </div>
+                      <!-- <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container py-3">
+              <div class="row">
+                <!-- Sticker -->
+                <div class="col">
+                  <div class="thumbnail">
+                    <a href="#stickerModal"data-bs-toggle="modal" data-bs-target="#stickerModal" style="text-decoration: none;">
+                      <img src="img/merch/sticker/sticker_main.jpg" class="figure-img img-fluid rounded" alt="..."/>
+                      <div class="caption text-center font-head-frutiger text-green">
+                        <h5>Stickers</h5>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <!-- Stickers Gallery -->
+                <div class="modal modal-lg fade" id="stickerModal" tabindex="-1" aria-labelledby="stickerLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title font-head-frutiger" id="stickerLabel">Stickers</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div id="stickerCaptions" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                          <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#stickerCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#stickerCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#stickerCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#stickerCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                          </div>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img src="img/merch/sticker/sticker_1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="img/merch/sticker/sticker_2.jpg" class="d-block w-100" alt="...">                            
+                            </div>
+                            <div class="carousel-item">
+                              <img src="img/merch/sticker/sticker_3.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="img/merch/sticker/sticker_4.jpg" class="d-block w-100" alt="...">
+                            </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#stickerCaptions" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#stickerCaptions" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>
+                      </div>
+                      <!-- <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div> -->
+                    </div>
+                  </div>
+                </div>
+                <!-- Pins -->
+                <div class="col">
+                  <div class="thumbnail">
+                    <a href="#pinModal"data-bs-toggle="modal" data-bs-target="#pinModal" style="text-decoration: none;">
+                      <img src="img/merch/pin/pin_main.jpg" class="figure-img img-fluid rounded" alt="..."/>
+                      <div class="caption text-center font-head-frutiger text-green">
+                        <h5>Pins</h5>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <!-- Pins Gallery -->
+                <div class="modal modal-lg fade" id="pinModal" tabindex="-1" aria-labelledby="pinLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title font-head-frutiger" id="pinLabel">Pins</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div id="pinCaptions" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                          <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#pinCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#pinCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#pinCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#pinCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                          </div>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img src="img/merch/pin/pin_1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="img/merch/pin/pin_2.jpg" class="d-block w-100" alt="...">                          
+                            </div>
+                            <div class="carousel-item">
+                              <img src="img/merch/pin/pin_3.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="img/merch/pin/pin_4.jpg" class="d-block w-100" alt="...">
+                            </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#pinCaptions" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#pinCaptions" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>
+                      </div>
+                      <!-- <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div> -->
+                    </div>
+                  </div>
+                </div>
+                <!-- Face Mask -->
+                <div class="col">
+                  <div class="thumbnail">
+                    <a href="#faceMaskModal"data-bs-toggle="modal" data-bs-target="#faceMaskModal" style="text-decoration: none;">
+                      <img src="img/merch/facemask/facemask_main.jpg" class="figure-img img-fluid rounded" alt="..."/>
+                      <div class="caption text-center font-head-frutiger text-green">
+                        <h5>Face Mask</h5>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <!-- Face Mask Gallery -->
+                <div class="modal modal-lg fade" id="faceMaskModal" tabindex="-1" aria-labelledby="faceMaskLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title font-head-frutiger" id="faceMaskLabel">Face Mask</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div id="faceMaskCaptions" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                          <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#faceMaskCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#faceMaskCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#faceMaskCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#faceMaskCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                          </div>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img src="img/merch/facemask/facemask_1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="img/merch/facemask/facemask_2.jpg" class="d-block w-100" alt="...">                
+                            </div>
+                            <div class="carousel-item">
+                              <img src="img/merch/facemask/facemask_3.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="img/merch/facemask/facemask_4.jpg" class="d-block w-100" alt="...">
+                            </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#faceMaskCaptions" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#faceMaskCaptions" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>
+                      </div>
+                      <!-- <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+             <!--Reservation-->
+             <section class="py-1">
+              <div class="container px-5 my-1">
+                  <div class="row gx-5 justify-content-center">
+                      <div class="col-lg-8 col-xl-7 col-xxl-6">
+                          <div class="my-5 text-center text-xl-start">
+                              <h3 class=" fw-bolder text-green mb-2 font-head-frutiger">Reserve a table now!</h3>
+                              <div class="row g-2">
+                                  <div class="col-md py-0 my-1">
+                                    <div class="form-floating">
+                                      <input type="text" class="form-control" id="res_firstname" placeholder="FirstName" >
+                                      <label for="res_firstname" class="font-chantal">First Name</label>
+                                    </div>
+                                  </div>
+                                  <div class="col-md py-0 my-1">
+                                    <div class="form-floating">
+                                      <input type="text" class="form-control" id="res_lastname" placeholder="LastName">
+                                      <label for="res_lastname" class="font-chantal">Last name</label>
+                                    </div>
+                                  </div>
+                                </div>
+                              <div class="form-floating mb-1">
+                                  <input class="form-control" id="res_email" type="email" placeholder="name@example.com"required />
+                                  <label for="res_email" class="font-chantal">Email address</label>
+                              </div>
+                              <div class="form-floating py-0 ">
+                                  <input class="form-control" id="res_date" type="date" placeholder="YYYY-DD-MM"required />
+                                  <label for="res_date" class="font-chantal">Date</label>
+                              </div>
+                              <div class="d-grid gap-3 d-sm-flex justify-content-center justify-content-xl-start py-2">
+                                  <a class="btn btn-primary btn-lg px-4 me-sm-3 navbar-font-chantal" onclick="reserveTable();">Reserve</a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"><img class="img-fluid rounded-3 my-5" src="https://s.hdnux.com/photos/01/22/35/43/21616848/4/1200x0.jpg" alt="..." /></div>
+                  </div>
+              </div>
+          </section>
+        </main>
+        <!-- Footer-->
+        <footer class="bg-yellow py-1 mt-auto">
+            <div class="container px-0">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="small px-5 py-0"><img src="assets/main_logo.png" class="footer-logo"/></div>
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Lightbox -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
